@@ -4,7 +4,7 @@ import { menu_list } from "../../assets/assets";
 
 const ExploreMenu = ({category, setCategory}) => {
   // State to track the selected category (default is "All")
-  
+
   return (
     <div className="explore-menu" id="explore-menu">
       <h1>Explore our menu</h1>

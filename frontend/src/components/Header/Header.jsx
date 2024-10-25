@@ -13,7 +13,7 @@ const Header = () => {
           buds. Order now and enjoy the flavors of your favorite dishes,
           delivered right to your door!
         </p>
-        <button>View Menu</button>
+        <button ><a href="#explore-menu">View Menu</a></button>      
       </div>
     </div>
   );
