@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import { food_list } from "../assets/assets";
 
 
@@ -6,7 +6,7 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) =>{
 
-    const [cartItems, setCartItems] = useState({});
+    const [cartItems, setCartItems] = useState({})
 
     //Add to Cart
     const addToCart = (itemId) => {
@@ -26,14 +26,23 @@ const StoreContextProvider = (props) =>{
         }
     }
 
-    useEffect(() =>{
-        console.log(cartItems);
-    }, [cartItems])
+    const getTotalCartAmount = ()=>{
+        let totalAmount = 0;
+        for(const item in cartItems){
+            let itemInfo = food_list.find((product) => product._id===item);
+            totalAmount += itemInfo.price*cartItems[item];
+        }
+        return totalAmount;
+    }
+
+    const getDeliveryFee = ()=>{
+        return getTotalCartAmount()===0 ? 0 : 5; //Logic can be added
+    }
 
 
     // Object which can be access anywhere around the App project using StoreContext
     const contextValue = {
-        food_list, cartItems, setCartItems, addToCart, removeFromCart
+        food_list, cartItems, setCartItems, addToCart, removeFromCart, getTotalCartAmount, getDeliveryFee
     }
 
     return (
