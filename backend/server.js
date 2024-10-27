@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors"
 import { connectDB } from "./config/db.js"
+import foodRouter from "./routes/FoodRoute.js"
 
 //app config
 const app = express() //An instance of an Express application
@@ -13,6 +14,10 @@ app.use(cors()) //enables CORS for all routes in the application. It lets your A
 
 //Database Connection
 connectDB();
+
+// API Endpoints
+app.use('/api/food', foodRouter)
+app.use('/images', express.static('uploads'))
 
 app.get("/", (req, res) => {
     res.send("API Working")
