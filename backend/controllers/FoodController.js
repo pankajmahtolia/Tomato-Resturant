@@ -1,4 +1,4 @@
-import { error } from "console";
+import { error, log } from "console";
 import foodModel from "../models/FoodModel.js";
 import fs from 'fs' //inbuild file system
 
@@ -47,7 +47,7 @@ const removeFood = async (req, res) => {
         //Retrive object from DB 
         const food = await foodModel.findById(req.body.id);
         // delete from upload folder
-        fs.unlink(`uploads/${food.image}`, ()=>{})
+        fs.unlink(`uploads/${food.image}`, ()=>{}) // ()=>{} is a callback function
 
         //delete from db
         await foodModel.findByIdAndDelete(req.body.id);

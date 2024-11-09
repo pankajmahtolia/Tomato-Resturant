@@ -2,6 +2,8 @@ import express from "express"
 import cors from "cors"
 import { connectDB } from "./config/db.js"
 import foodRouter from "./routes/FoodRoute.js"
+import userRouter from "./routes/UserRoute.js"
+import "dotenv/config";
 
 //app config
 const app = express() //An instance of an Express application
@@ -17,7 +19,8 @@ connectDB();
 
 // API Endpoints
 app.use('/api/food', foodRouter)
-app.use('/images', express.static('uploads'))
+app.use('/images', express.static('uploads')) // API endpoint which loads image from upload when provided image eg. 1731140983041food_1.png
+app.use('/api/user', userRouter)
 
 app.get("/", (req, res) => {
     res.send("API Working")

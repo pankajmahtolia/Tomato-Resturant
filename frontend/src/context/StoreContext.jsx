@@ -20,7 +20,7 @@ const StoreContextProvider = (props) =>{
 
     //Remove from Cart
     const removeFromCart = (itemId) => {
-        //If new item append with prev state of cart with quantity 1
+        //Desc quantity by 1
         if(cartItems[itemId]){
             setCartItems((prev) => ({...prev, [itemId]:prev[itemId]-1}))
         }
