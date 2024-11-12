@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({
     password: { type: String, required: true },
     role: { type: String, default:"user" },
     cartData: { type: Object, default: {} }
-},{minimise:false}); //{minimise:false}, so cartData entry can be created without any data
+},{minimize:false}); //{minimise:false}, so cartData entry can be created without any data
 
 const userModel = mongoose.model.user || mongoose.model("user", userSchema);
 

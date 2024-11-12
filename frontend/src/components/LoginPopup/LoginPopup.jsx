@@ -35,7 +35,8 @@ const LoginPopup = ({ setShowLogin }) => {
       toast.success("Login Successfully");
       setShowLogin(false);
     } else {
-      toast.error(response.data.message);
+      toast.error("Invalid Credentials!!");
+      // toast.error(response.data.message);
     }
   };
 

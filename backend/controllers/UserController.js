@@ -56,6 +56,7 @@ const registerUser = async (req, res) => {
             name: name,
             email: email,
             password: hashedPassword,
+            cartData: {}  // Initialize cartData as an empty object
         });
 
         const user = await newUser.save();

@@ -26,7 +26,20 @@
 }
 
 .cart-items-item .cross{
+    background-color: tomato;
+    width: 46px;
+    font-size: max(0.7vw, 10px);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 8px;
     cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.cart-items-item .cross:hover {
+    background-color: darkred;
 }
 
 .cart-bottom{
