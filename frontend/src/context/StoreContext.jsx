@@ -1,6 +1,7 @@
 import { createContext, useState, useEffect } from "react";
 import axios from "axios";
 export const StoreContext = createContext(null)
+import { toast } from "react-toastify";
 
 const StoreContextProvider = (props) => {
 
@@ -64,7 +65,7 @@ const StoreContextProvider = (props) => {
     }
 
     const getDeliveryFee = () => {
-        return getTotalCartAmount() === 0 ? 0 : 5; //Logic can be added
+        return getTotalCartAmount() === 0 ? 0 : 15; //Logic can be added
     }
 
     const fetchFoodList = async () => {
