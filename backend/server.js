@@ -25,7 +25,7 @@ app.use('/api/cart', cartRouter)
 app.use("/api/order", orderRouter)
 
 app.get("/", (req, res) => {
-    res.send("API Working")
+    res.send("Welcome to Our Service");
 })
 
 const port = process.env.PORT || 4000;  // Use the dynamic port assigned by Render or default to 4000
