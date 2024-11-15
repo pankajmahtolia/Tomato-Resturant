@@ -23,23 +23,17 @@
 .my-orders-order p span{
     color: tomato;
 }
-
 .my-orders-order p b{
     font-weight: 500;
     color: #454545;
 }
 .my-orders-order button{
-    width: max(50px, 8vw);
     border: none;
     padding: 12px 0px;
-    border-radius: 7px;
+    border-radius: 4px;
     background-color: #ffe1e1;
     cursor: pointer;
     color: #454545;
-}
-
-.my-orders-order button:hover {
-    background-color: rgb(203, 139, 139);
 }
 @media (max-width:900px) {
     .my-orders-order{
