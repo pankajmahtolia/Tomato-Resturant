@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
     res.send("Welcome to Our Service");
 })
 
-const port = process.env.PORT || 4000;  // Use the dynamic port assigned by Render or default to 4000
+const port = process.env.PORT || 4000;  // Use the dynamic port assigned by Render(For Hosting) or default to 4000
 app.listen(port, '0.0.0.0', () => {
     console.log(`Server started on http://localhost:${port}`);
 });
