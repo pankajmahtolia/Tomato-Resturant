@@ -21,17 +21,27 @@ A modern and dynamic food ordering platform that redefines convenience, built wi
 ## 🖼️ Screenshots  
 Take a look at some of our stunning UI highlights:
 
-### Hero Section  
-![Hero](https://i.ibb.co/59cwY75/food-hero.png)  
+### Menu Section  
+![Hero](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Header.png)  
 
-### Products Section  
-![Products](https://i.ibb.co/JnNQPyQ/food-products.png)  
+### SignUp PopUp  
+![Products](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Sign-Up.png)  
 
-### Cart Page  
-![Cart](https://i.ibb.co/t2LrQ8p/food-cart.png)  
+### Login PopUp  
+![Cart](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Login.png)  
 
-### Login Popup  
-![Login](https://i.ibb.co/s6PgwkZ/food-login.png)  
+### Menu Section  
+![Login](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Menu.png) 
+
+### Cart Section  
+![Login](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Cart.png) 
+
+### Stripe Payment Gateway   
+![Login](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/StripePayment.png) 
+
+### Orders Section  
+![Login](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/FoodProcessing.png) 
+
 
 ---
 
