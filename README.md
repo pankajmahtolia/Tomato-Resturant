@@ -22,25 +22,28 @@ A modern and dynamic food ordering platform that redefines convenience, built wi
 Take a look at some of our stunning UI highlights:
 
 ### Menu Section  
-![Hero](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Header.png)  
+![Menu](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Header.png)  
 
 ### SignUp PopUp  
-![Products](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Sign-Up.png)  
+![SignUp](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Sign-Up.png)  
 
 ### Login PopUp  
-![Cart](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Login.png)  
+![Login](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Login.png)  
 
 ### Menu Section  
-![Login](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Menu.png) 
+![Menu](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Menu.png) 
 
 ### Cart Section  
-![Login](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Cart.png) 
+![Cart](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Cart.png) 
 
 ### Stripe Payment Gateway   
-![Login](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/StripePayment.png) 
+![Stripe](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/StripePayment.png) 
 
 ### Orders Section  
-![Login](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/FoodProcessing.png) 
+![Orders](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/FoodProcessing.png) 
+
+### Admin Add Section  
+![Orders](https://github.com/pankajmahtolia/Tomato-Resturant/blob/main/assets/git_assets/Admin_Add_Items.png)
 
 
 ---
