@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ExploreMenu.css";
 import { menu_list } from "../../assets/assets";
 
-const ExploreMenu = ({category, setCategory}) => {
+const ExploreMenu = ({ category, setCategory }) => {
   // State to track the selected category (default is "All")
 
   return (
